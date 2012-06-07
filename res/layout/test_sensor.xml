@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#383838"
+	android:orientation="vertical"
+	android:gravity="center"	>
+  	 
+  	 
+  	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1" >
+		
+  	<TextView 
+    android:id="@+id/myTextView" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+	
+	</LinearLayout>
+	
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:gravity="center">
+
+    <Button android:id="@+id/but_return" 
+			android:layout_width="80dp"
+			android:layout_height="wrap_content" 
+			android:layout_marginRight="20dp"
+			android:text="@string/but_return" />
+			
+		<Button android:id="@+id/but_ok" 
+			android:layout_width="80dp"
+			android:layout_height="wrap_content" 
+			android:layout_marginRight="20dp"
+			android:text="@string/but_ok" />
+			
+		<Button android:id="@+id/but_fail" 
+			android:layout_width="80dp"
+			android:layout_height="wrap_content" 
+			android:layout_marginRight="20dp"
+			android:text="@string/but_fail" />
+ 	</LinearLayout>
+ 	
+</LinearLayout>

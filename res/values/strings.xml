@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">Hello World, testings!</string>
+    <string name="app_name">Testings</string>
+ 	<string name="testings_label">testings</string>
+ 	
+ 	<string name="main_normal">Normal Test</string>
+ 	<string name="main_factory">Factory Test</string>
+ 	<string name="main_exit">Exit Test</string>
+ 	
+ 	
+ 	<string name="t_test_start_title">=================</string>
+ 	<!-- Strings for Test items -->
+	<string name="t_lcd_title">Test LCD</string>
+	<string name="t_key_title">Test Keyboard</string>	
+	<string name="t_bt_title">Test Bluetooth</string>
+	<string name="t_wifi_title">Test WIFI</string>
+	<string name="t_gps_title">Test GPS</string>
+	<string name="t_usb_title">Test USB</string>
+	<string name="t_hdmi_title">Test HMDI</string>
+  	<string name="t_virabater_title">Test Virabater</string>
+  	<string name="t_sensor_title">Test Sensor</string>
+  	<string name="t_led_title">Test LEDs</string>
+    <string name="t_codec_title">Test Codec</string>
+  	<string name="t_rtc_title">Test RTC</string>
+  	
+
+	
+
+
+    <!-- Strings for Dialog yes button -->
+    <string name="yes">"Yes"</string>
+
+    <!-- Strings for Dialog no button -->
+    <string name="no">"No"</string>
+
+    <string name="but_ok">OK</string>
+    <string name="but_fail">Fail</string>
+	<string name="but_return">Return</string>
+	
+    <string name="but_retest">Re-Test</string>
+    <string name="but_next">Next</string>
+	<string name="but_connect">Connect</string>
+    
+    
+        <string name="green">1111</string>
+    <string name="red">9999</string>
+
+</resources>
